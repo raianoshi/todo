@@ -57,7 +57,7 @@ function App() {
   }, []);
 
   return (
-    <div className="min-h-screen flex items-start justify-center bg-gray-100 pt-16">
+    <div className="min-h-screen flex items-start justify-center bg-light-blue pt-16">
       <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
         <h1 className="text-4xl font-bold mb-8 text-center">Daily Tasks</h1>
         <ul>
