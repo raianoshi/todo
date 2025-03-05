@@ -3,10 +3,10 @@ import React, { useState, useEffect } from 'react';
 function App() {
   // Predefined list of todos
   const initialTodos = [
-    { id: 1, text: 'Read a book', checked: false },
-    { id: 2, text: 'Go for a walk', checked: false },
-    { id: 3, text: 'Drink water', checked: false },
-    { id: 4, text: 'Meditate', checked: false },
+    { id: 1, text: 'Language study 1 hr 📖', checked: false },
+    { id: 2, text: 'Piano 1 hr 🎹', checked: false },
+    { id: 3, text: 'Web proj progress 💻', checked: false },
+    { id: 4, text: 'Drawing practice 🖌️', checked: false },
   ];
 
   // Load todos from localStorage or use initialTodos
@@ -59,7 +59,7 @@ function App() {
   return (
     <div className="min-h-screen flex items-start justify-center bg-gray-100 pt-16">
       <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
-        <h1 className="text-4xl font-bold mb-8 text-center">Daily Todo App</h1>
+        <h1 className="text-4xl font-bold mb-8 text-center">Daily Tasks</h1>
         <ul>
           {todos.map((todo) => (
             <li key={todo.id} className="flex items-center p-3 border-b border-gray-200">
