@@ -8,7 +8,7 @@ module.exports = {
         roboto: ['Roboto', 'sans-serif'], // Add your custom font here
       },
       colors: {
-      'light-blue': '#DCEBF3', // Add your custom color here
+      'light-blue': '#DEEFF8', // Add your custom color here
       }
     },
   },
